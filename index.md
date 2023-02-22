@@ -6,15 +6,7 @@ description: "description"
 permalink: /
 ---
 
-# Welcome to github.io
-{: .fs-8 }
+# Welcome to my Learning Log
 
-Github Description
-{: .fs-6 .fw-300 }
-
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
-
-## Getting started
-TESTTEST안녕안녕
+## 학습내용 기록용 블로그
+우분투 리눅스, 파이썬을 주로 다룹니다

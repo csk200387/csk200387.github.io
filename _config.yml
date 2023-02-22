@@ -1,10 +1,9 @@
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
-title: The Knowledge Base
+title: Knowledge Base
 description: Notepad
 baseurl: "/"
 url: "https://csk200387.github.io"
-# Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
     - "//github.com/csk200387"
