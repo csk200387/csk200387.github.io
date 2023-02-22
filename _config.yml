@@ -1,0 +1,16 @@
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+title: csk Blog
+description: Notepad
+baseurl: "/"
+url: "https://csk200387.github.io"
+# Aux links for the upper right navigation
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/csk200387"
+    
+    
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/csk200387"
