@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Child1
-parent: Menu3
-nav_order: 1
+title: Child1Test
+parent: GitHub
+nav_order: 2
 ---
 
 # Child

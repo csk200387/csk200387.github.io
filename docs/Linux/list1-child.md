@@ -1,6 +1,7 @@
 ---
 layout: default
 title: GCP SSH 연결
+parent: Linux
 nav_order: 1
 ---
 
