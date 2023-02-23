@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Git Commit Message 작성 규칙
+parent: Menu3
 nav_order: 1
 ---
 
