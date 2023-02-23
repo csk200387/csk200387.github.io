@@ -1,6 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
-title: Knowledge Base
+title: TheKnowledgeBase
 description: Notepad
 baseurl: "/"
 url: "https://csk200387.github.io"
@@ -13,3 +13,7 @@ aux_links:
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/csk200387"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
