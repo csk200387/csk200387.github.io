@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/Linux
 ---
 
-# Menu3
-
-Menu3 Page tests  
-hello?
+## 리눅스 페이지
+* Ubuntu 22.04
+* WSL
+* 서버 관리용 명령어 등등

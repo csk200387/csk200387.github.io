@@ -6,4 +6,5 @@ has_children: true
 permalink: /docs/GitHub
 ---
 
-# TEST
+## GitHub 페이지
+* 전반적인 Git & GitHub 사용법
