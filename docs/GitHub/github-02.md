@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 02 깃(Git) 초기 세팅하기
+title: 02 깃(Git) 초기 세팅
 parent: GitHub
 nav_order: 2
 ---
 
-# 02 - 깃(Git) 초기 세팅하기
+# 02 - 깃(Git) 초기 세팅
 ```bash
 git config --global user.name "{UserID}"
 git config --global user.email "{UserEmail}"
