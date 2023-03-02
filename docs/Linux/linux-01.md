@@ -26,7 +26,12 @@ SSH 키를 생성했다면, `~/.ssh` 경로에 파일이 2개 생성되었을 �
 <hr>
 
 ## SSH 키 등록
-사진 첨부
+설정 → 메타데이터 → SSH키 → 수정
+<br>
+`KeyName.pub` 의 내용을 저장
+<br>
+
+<img src="../../assets/images/linux-03-image-1.png" alt="Capture" width="90%" height="90%">
 <hr>
 
 ## SSH 접속
@@ -37,4 +42,3 @@ ssh -i ~/.ssh/{PrivateKey} {Username}@{IP}
 `PrivateKey` : 개인키 파일명  
 `Username` : 키 생성할 때 입력한 사용자명  
 `IP` : GCP VM 인스턴스의 외부IP
-
