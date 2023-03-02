@@ -26,7 +26,7 @@ SSH 키를 생성했다면, `~/.ssh` 경로에 파일이 2개 생성되었을 �
 
 <hr>
 
-<img src="/assets/images/linux-03-image-1.png" alt="Capture" width="50%" height="50%">
+<img src="assets/images/linux-03-image-1.png" alt="Capture" width="50%" height="50%">
 
 ## SSH 키 등록
 프로젝트 페이지 → 설정 → 메타데이터 → SSH키
