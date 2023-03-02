@@ -1,11 +1,14 @@
 ---
 layout: default
-title: GCP SSH 연결
+title: 01 GCP SSH 연결
 parent: Linux
 nav_order: 1
 ---
 
-# 로컬 터미널에서 GCP VM인스턴스 터미널 접속
+# 01 - GCP SSH 연결
+로컬 터미널에서 GCP VM인스턴스 터미널 접속하기
+<hr>
+
 ## SSH 키 생성
 ```bash
 ssh-keygen -t rsa -f ~/.ssh/{KeyName} -C {Username}
@@ -23,7 +26,7 @@ SSH 키를 생성했다면, `~/.ssh` 경로에 파일이 2개 생성되었을 �
 <hr>
 
 ## SSH 키 등록
-dd
+사진 첨부
 <hr>
 
 ## SSH 접속
