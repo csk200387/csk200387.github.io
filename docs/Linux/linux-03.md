@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # 03 - SSH 프로세스 유지
-SSH 접속을 종료하여도 리눅스 시스템의 프로세스가 꺼지지 않는 명령어이다.
+SSH 접속을 종료하여도 리눅스 시스템의 프로세스를 유지하는 명령어
 <hr>
 
 ## 1. Screen
@@ -23,10 +23,15 @@ SSH 키를 생성했다면, `~/.ssh` 경로에 파일이 2개 생성되었을 �
 
 `KeyName` : 개인키  
 `KeyName.pub` : 공개키
+
 <hr>
 
+<img src="/assets/images/linux-03-image-1.png" alt="Capture" width="50%" height="50%">
+
 ## SSH 키 등록
-사진 첨부
+프로젝트 페이지 → 설정 → 메타데이터 → SSH키
+
+
 <hr>
 
 ## SSH 접속
