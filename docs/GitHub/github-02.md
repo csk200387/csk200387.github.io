@@ -34,26 +34,35 @@ git clone {RepoURL} {Dir}
 <hr>
 
 ## 3. 로컬 저장소의 파일을 깃허브로 업로드 하는 방법
+<br>
 
-
-1. git 저장소 초기화
+#### 1. git 저장소 초기화
 ```bash
 git init
 ```
-해당 명령어는 Git 저장소를 초기화하여 새로운 Git 저장소를 생성하거나 기존의 디렉토리를 Git 저장소로 변환할 수 있도록 필요한 파일과 디렉토리를 생성하는 명령어이다.
+해당 명령어는 Git 저장소를 초기화하여 새로운 Git 저장소를 생성하거나 기존의 디렉토리를 Git 저장소로 변환할 수 있도록 필요한 파일과 디렉토리를 생성하는 명령어이다. <br>
+해당 명령어 입력시 현재 디렉토리에 `.git` 폴더가 생성될 것이다.
+<br><br>
 
-2. git 저장소로 파일 추가
+#### 2. git 저장소로 파일 추가
 ```bash
 git add .
 ```
 `.` : 현재 디렉토리의 모든 파일&폴더
+<br><br>
 
-3. git 저장소의 변경사항 기록하기
+#### 3. git 저장소의 변경사항 기록하기
 ```bash
 git commit -m "{Message}"
 ```
-`-m` : 
+`-m` : 커밋 메시지를 입력하는 옵션
+<br><br>
 
+#### 4. 유저 정보 입력
+```bash
 git config user.name {GithubID}
 git config user.email {GithubEmail}
-git
+```
+<br><br>
+## 임시간단정리
+readme.md는 생성하지 않은 상태로 리포지토리 생성
