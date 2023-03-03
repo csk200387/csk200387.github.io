@@ -29,7 +29,7 @@ git clone {RepoURL} {Dir}
 ```
 `RepoURL` : 로컬 저장소로 복사할 깃허브의 리포지토리 링크.
 
-<img src="../../assets/images/github-02-image-1.png" alt="GetLink" width="90%" height="90%">
+<img src="../../assets/images/github-02-image-1.png" alt="GetLink" width="100%" height="100%">
 
 `Code` 의 HTTPS 탭에서 리포지토리의 주소를 복사할 수 있다.
 <hr>
@@ -53,37 +53,53 @@ git add .
 <br><br>
 
 ### 3. GitHub 리포지토리 생성후 연결
-<img src="../../assets/images/github-02-image-2.png" alt="GetLink" width="80%" height="80%">
+<img src="../../assets/images/github-02-image-2.png" alt="GetLink" width="100%" height="100%">
 
 최상위 페이지라면 위의 버튼을,
 
-<img src="../../assets/images/github-02-image-3.png" alt="GetLink" width="90%" height="90%">
+<img src="../../assets/images/github-02-image-3.png" alt="GetLink" width="100%" height="100%">
 
 리포지토리 탭이라면 위의 버튼을 클릭한다.  
 <br>
 
-<img src="../../assets/images/github-02-image-4.png" alt="GetLink" width="90%" height="90%">
+<img src="../../assets/images/github-02-image-4.png" alt="GetLink" width="100%" height="100%">
 
 `Repository name` : 리포지토리의 타이틀  
 `Description` : 리포지토리의 설명  
 
 `Public` / `Private` : `Public` 을 선택할 시 다른사람이 볼 수 있다.
 
-`Add a README file` : 리포지토리 페이지의 제목과 설명을 보여주는 Markdown 파일을 생성한다. **아래에 나올 명령어로 업로드를 진행할 때 브랜치가 꼬일 수 있으므로 생성하지 않는 것을 추천함.**
+`Add a README file` : 리포지토리 페이지의 제목과 설명을 보여주는 Markdown 파일을 생성한다. **아래에 나올 명령어로 업로드를 진행할 때 브랜치가 꼬일 수 있으므로 생성하지 않는 것을 추천함.**  
 <br>
 
-#### 3. git 저장소의 변경사항 기록하기
+<img src="../../assets/images/github-02-image-5.png" alt="GetLink" width="100%" height="100%">
+
+정상적으로 생성되었다면 위처럼 화면이 나올텐데, 상단의 링크를 복사하여 아래의 명령어에 입력한다.
+
+```bash
+git remote add origin {GitURL}
+```
+`GitURL` : Git 주소
+
+### 4. 커밋기록 작성
 ```bash
 git commit -m "{Message}"
 ```
-`-m` : 커밋 메시지를 입력하는 옵션
-<br><br>
+`-m` : 커밋 메시지를 입력하는 옵션  
+`Message` : 파일명 우측에 표시될 메시지이다.  
+*Ex)*  
+<img src="../../assets/images/github-02-image-6.png" alt="GetLink" width="100%" height="100%">
+<br>
 
-#### 4. 유저 정보 입력
+### 5. 원격 저장소로 푸시
 ```bash
-git config user.name {GithubID}
-git config user.email {GithubEmail}
+git push -u origin master
 ```
-<br><br>
-## 임시간단정리
-readme.md는 생성하지 않은 상태로 리포지토리 생성
+해당 명령어를 입력하면 아래와 같이 `Username` 과 `Password` 를 입력하라고 뜰 것이다. `Username` 은 GitHub의 ID를 입력하면 되고 `Password` 는 `Personal access tokens` 을 발급받아 입력해야 한다.
+<img src="../../assets/images/github-02-image-7.png" alt="GetLink" width="100%" height="100%">
+
+[Personal access tokens 발급받는 방법](github-04.md)
+<hr>
+
+### IDE 를 사용하는 경우
+VSCODE 의 경우 3번째 단계까지만 해놓으면 나머지는 IDE에서 아주 쉽게 할 수 있다.

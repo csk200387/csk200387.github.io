@@ -9,4 +9,7 @@ permalink: /
 # The Knowledge Base
 
 ## 학습내용 기록용 블로그
-우분투 리눅스, 파이썬을 주로 다룸
+
+### 우분투 리눅스, 파이썬을 주로 다룸  
+### * Main OS : Ubuntu 22.04
+### * IDE : VSCODE
