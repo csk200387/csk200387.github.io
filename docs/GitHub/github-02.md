@@ -1,11 +1,12 @@
 ---
 layout: default
-title: 02 깃(Git) 초기 세팅 (config, clone, push)
+title: 02 깃(Git) 알아보기 (repository, config, clone, push)
 parent: GitHub
 nav_order: 2
 ---
 
-# 02 - 깃(Git) 초기 세팅 (config, clone, push)
+# 02 - 깃(Git) 초기 세팅 (repository, config, clone, push)
+* 깃허브 리포지토리 생성하기
 * [git 계정정보 저장하는 방법](#1-git-계정정보-저장하는-방법)
 * [깃허브의 프로젝트 파일을 로컬 저장소로 복사하는 방법](#2-깃허브의-프로젝트-파일을-로컬-저장소로-복사하는-방법)
 * [로컬 저장소의 파일을 깃허브로 업로드 하는 방법](#3-로컬-저장소의-파일을-깃허브로-업로드-하는-방법)

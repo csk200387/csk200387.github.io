@@ -53,7 +53,8 @@ alias sshconnect='ssh -i ~/.ssh/{PrivateKey} {Username}@{IP}'
 ```
 [alias 란?](linux-04.md)
 
-# 
+<br>
+
 ```bash
 ssh-keygen -t rsa -f ~/.ssh/{KeyName} -C {Username}@{IP}
 ```
