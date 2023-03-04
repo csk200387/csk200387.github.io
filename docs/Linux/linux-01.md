@@ -27,9 +27,14 @@ SSH 키를 생성했다면, `~/.ssh` 경로에 파일이 2개 생성되었을 �
 
 ## SSH 키 등록
 설정 → 메타데이터 → SSH키 → 수정  
-`KeyName.pub` 의 내용을 입력한다.  
 
-<img src="../../assets/images/linux-03-image-1.png" alt="Capture" width="90%" height="90%">
+<img src="../../assets/images/linux-03-image-1.png" alt="Capture" width="90%" height="90%">  
+
+위의 빈 칸에 `KeyName.pub` 의 내용을 입력한다.
+```bash
+cat {KeyName.pub}
+```
+
 
 <hr>
 
@@ -41,8 +46,17 @@ ssh -i ~/.ssh/{PrivateKey} {Username}@{IP}
 
 `PrivateKey` : 개인키 파일명  
 `Username` : 키 생성할 때 입력한 사용자명  
-`IP` : GCP VM 인스턴스의 외부IP
+`IP` : GCP VM 인스턴스의 외부IP  
+<br>
 
+최초 접속시 아래와 같이 연결을 계속 할 것인지 물어본다.
+```
+The authenticity of host 'XXX.XXX.XXX.XXX (XXX.XXX.XXX.XXX)' can't be established.
+ED25519 key fingerprint is SHA256:Nm6C9HnqXXXXXXXXXXXXXXXXXX/cc88t8.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+`yes` 를 입력하여 연결을 계속한다.
 <hr>
 
 ## 기타

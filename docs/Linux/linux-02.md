@@ -25,6 +25,7 @@ scp -i ~/.ssh/{PrivateKey} {File} {Username}@{IP}:{Dir}
 scp -i ~/.ssh/{PrivateKey} -r {Folder} {Username}@{IP}:{Dir}
 ```
 폴더를 전송할 땐 위와 같이 `-r` 옵션을 넣어주면 된다.
+<hr>
 
 ## 2. 원격 저장소 -> 로컬 저장소
 
@@ -36,3 +37,9 @@ scp -i ~/.ssh/{PrivateKey} {Username}@{IP}:{File} {Dir}
 `Username` : 사용자명  
 `IP` : VM 인스턴스의 외부IP  
 `Dir` : 받아온 파일이 저장될 디렉토리  
+<br>
+
+```bash
+scp -i ~/.ssh/{PrivateKey} -r {Username}@{IP}:{Folder} {Dir}
+```
+폴더를 받아올 땐 위와 같이 `-r` 옵션을 넣어주면 된다.
