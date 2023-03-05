@@ -59,7 +59,7 @@ or
 
 ![Github.com/UserID?tab=repositories](../../assets/images/github-02/github-02-image-3.png)
 
-리포지토리 탭이라면 위의 버튼을 클릭한다.  
+`New` 버튼을 클릭한다.
 <br>
 
 ![CreateRepo](../../assets/images/github-02/github-02-image-4.png)
