@@ -29,7 +29,7 @@ git clone {RepoURL} {Dir}
 ```
 `RepoURL` : 로컬 저장소로 복사할 깃허브의 리포지토리 링크.
 
-<img src="../../assets/images/github-02-image-1.png" alt="GetLink" width="100%" height="100%">
+![RepoURL](../../assets/images/github-02/github-02-image-1.png)
 
 `Code` 의 HTTPS 탭에서 리포지토리의 주소를 복사할 수 있다.
 <hr>
@@ -53,16 +53,16 @@ git add .
 <br><br>
 
 ### 3. GitHub 리포지토리 생성후 연결
-<img src="../../assets/images/github-02-image-2.png" alt="GetLink" width="100%" height="100%">
+![Github.com](../../assets/images/github-02/github-02-image-2.png)
 
-최상위 페이지라면 위의 버튼을,
+or
 
-<img src="../../assets/images/github-02-image-3.png" alt="GetLink" width="100%" height="100%">
+![Github.com/UserID?tab=repositories](../../assets/images/github-02/github-02-image-3.png)
 
 리포지토리 탭이라면 위의 버튼을 클릭한다.  
 <br>
 
-<img src="../../assets/images/github-02-image-4.png" alt="GetLink" width="100%" height="100%">
+![CreateRepo](../../assets/images/github-02/github-02-image-4.png)
 
 `Repository name` : 리포지토리의 타이틀  
 `Description` : 리포지토리의 설명  
@@ -72,7 +72,7 @@ git add .
 `Add a README file` : 리포지토리 페이지의 제목과 설명을 보여주는 Markdown 파일을 생성한다. **아래에 나올 명령어로 업로드를 진행할 때 브랜치가 꼬일 수 있으므로 생성하지 않는 것을 추천함.**  
 <br>
 
-<img src="../../assets/images/github-02-image-5.png" alt="GetLink" width="100%" height="100%">
+![RepoSuccess](../../assets/images/github-02/github-02-image-5.png)
 
 정상적으로 생성되었다면 위처럼 화면이 나올텐데, 상단의 링크를 복사하여 아래의 명령어에 입력한다.
 
@@ -88,7 +88,7 @@ git commit -m "{Message}"
 `-m` : 커밋 메시지를 입력하는 옵션  
 `Message` : 파일명 우측에 표시될 메시지이다.  
 *Ex)*  
-<img src="../../assets/images/github-02-image-6.png" alt="GetLink" width="100%" height="100%">
+![CommitMessage](../../assets/images/github-02/github-02-image-6.png)
 <br>
 
 ### 5. 원격 저장소로 푸시
@@ -96,10 +96,10 @@ git commit -m "{Message}"
 git push -u origin master
 ```
 해당 명령어를 입력하면 아래와 같이 `Username` 과 `Password` 를 입력하라고 뜰 것이다. `Username` 은 GitHub의 ID를 입력하면 되고 `Password` 는 `Personal access tokens` 을 발급받아 입력해야 한다.
-![인증화면](../../assets/images/github-02-image-7.png)
+![인증화면](../../assets/images/github-02/github-02-image-7.png)
 
 [Personal access tokens 발급받는 방법](github-04.md)
 <hr>
 
 ### IDE 를 사용하는 경우
-VSCODE를 사용하는 경우, Push시 인증정보를 입력하지 않아도 된다.
+VSCODE를 사용하는 경우, Push시 인증정보를 입력하지 않아도 된다. 
