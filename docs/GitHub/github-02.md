@@ -96,7 +96,7 @@ git commit -m "{Message}"
 git push -u origin master
 ```
 해당 명령어를 입력하면 아래와 같이 `Username` 과 `Password` 를 입력하라고 뜰 것이다. `Username` 은 GitHub의 ID를 입력하면 되고 `Password` 는 `Personal access tokens` 을 발급받아 입력해야 한다.
-<img src="../../assets/images/github-02-image-7.png" alt="GetLink" width="100%" height="100%">
+![인증화면](../../assets/images/github-02-image-7.png)
 
 [Personal access tokens 발급받는 방법](github-04.md)
 <hr>
