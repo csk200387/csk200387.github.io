@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 03 SSH 프로세스 유지 (Screen)
+title: 03 Screen (백)
 parent: Linux
 nav_order: 3
 ---
