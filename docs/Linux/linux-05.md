@@ -72,11 +72,13 @@ ls -al |& grep README.md
 ```
 
 ## 사용 예시
+
 기존에 `;`를 사용하여 c 컴파일과 실행을 한 줄에 실행하였다.
     
 ```bash
 alias comp='gcc main.c -o Main -O2 -Wall -lm -static -std=gnu99; ./Main'
 ```
+
 이 경우, `gcc` 명령어가 성공하든 실패하든 뒤의 `./Main` 명령어를 실행하였다.
 
 하지만, `&&`를 사용하면 `gcc` 명령어가 성공했을 때만 `./Main` 명령어를 실행하도록 할 수 있다.
@@ -84,6 +86,7 @@ alias comp='gcc main.c -o Main -O2 -Wall -lm -static -std=gnu99; ./Main'
 ```bash
 alias comp='gcc main.c -o Main -O2 -Wall -lm -static -std=gnu99 && ./Main'
 ```
+
 그러나 차이를 모르겠다. `-Wall`옵션으로 에러내역이 출력되어도 컴파일은 제대로 수행되므로 Main의 실행은 정상으로  작동한다.
 
 <hr>
