@@ -19,8 +19,6 @@ command1; command2; command3
 
 `;` : 명령어를 구분하는 구분자. 앞의 명령어가 성공하든 실패하든 뒤의 명령어를 실행
 
-<br>
-
 ```bash
 ls -al; pwd; date
 ```
