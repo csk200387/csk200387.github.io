@@ -36,7 +36,7 @@ CMD에선 `doskey`를 `alias`대신 사용할 수 있다.
 doskey {alias_name}='{command}'
 ```
 
-CMD에선 bashrc가 없기 때문에 다른 방법으로 명령어를 등록해야 한다.
+CMD는 bashrc가 없기 때문에 다른 방법으로 명령어를 등록해야 한다.
 
 ### .cmd 파일 만들기
 
@@ -49,11 +49,14 @@ doskey {alias_name}='{command}'
 ### 실행 옵션 추가하기
 
 ```bash
-%SystemRoot%\System32\cmd.exe /k C:\Users\csk20\cmdrc.cmd
+%SystemRoot%\System32\cmd.exe /k C:\Users\csk20\{filename}.cmd
 ```
-원래 있던 옵션 뒤에 `/k C:\Users\csk20\cmdrc.cmd` 를 추가한다.  
-`cmd.exe` 가 실행할 때 `.cmd`파일을 실행하도록 옵션을 추가한다.  
-`/k` : 문자열로 지정된 명령을 수행하고 계속함.  
+`/k` : 문자열로 지정된 명령을 수행하고 계속함  
+`filename` : doskey가 작성된 파일의 파일명  
+
+`cmd.exe` 를 실행할 때 `.cmd` 파일을 실행하도록 옵션을 추가한다.  
 
 ![Windows Terminal](../../assets/images/linux-04-image-1.png)
 위는 Windows Terminal에서 설정한 모습이다.
+
+이제 CMD를 실행하면 doskey가 적용된 것을 확인할 수 있다.
