@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 03 Screen (백)
+title: 03 Screen (백그라운드 실행)
 parent: Linux
 nav_order: 3
 ---
